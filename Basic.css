@@ -1,0 +1,28 @@
+body {
+   background-color : cyan;
+
+}
+H1{
+color :navy;
+}
+H2{
+color :rgb(153,153,153);
+}
+H3{
+color :rgb(200,100,200);
+}
+img {
+float: right ;
+background-color : black;
+}
+.some1{
+background-color : green;
+border : 2 px solid blue ;
+}
+p {
+border : 1px solid blue ;
+display : block ;
+}
+#try {
+height : 40 px ;
+}
