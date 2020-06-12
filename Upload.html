@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html >
+
+<head>
+	<title>My Dynamic Detail Page  </title>
+		<link rel = "stylesheet" type = "text/css" href = "upload.css">
+	<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+		</script>
+   <script type = "text/javascript"  >
+    function Upload() {
+//  var Fileinput = document.getElementById("int");
+ // var Filename = Fileinput.value ;
+ // alert("you chose : " + Filename); 
+  var fileinput = document.getElementById("finput");
+  var image = new SimpleImage(fileinput);
+  // get canvas 
+  var canvas = document.getElementById("div1");
+  //uplaod image on canvas
+  image.drawTo(canvas);
+  
+}
+	</script>
+	
+
+</head>
+<body>
+	<h1> Uploading images to webpage </h1>
+<p>
+  <canvas id = "div1" class = "some1" >
+
+  </canvas>
+  Choose File :
+  <input type ="file" id= "finput" multiple = "false" 
+    accept = "image/*" onchange = "Upload()">
+  
+</p>S
+	
+	
+	
+</body>
+
+</html>
